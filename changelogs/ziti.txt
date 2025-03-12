@@ -1,10 +1,9 @@
 ## You are responsible for your actions.
 
 This is Android 15 QPR1 with February 2025 security patches
+
 Gapps build
-- synced with latest Sources
 - Add option to change Refresh rates in display settings
-- Little performance tweaks from lineage source in kernel 
 
 
 Notes:
