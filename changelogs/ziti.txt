@@ -3,8 +3,32 @@
 This is Android 15 QPR1 with February 2025 security patches
 
 Vanilla build
-- Add option to change Refresh rates in display settings
-
+Devices side changes:
+- Don't pin camera & launcher app in memory
+- Disable QCOM system daemon(to boost performance)
+- Use scudo instead of jemalloc for a memory allocator
+- Set preferred refresh rate on keyguard to 60
+- Enable ambient display notifications by default
+- Turn on screen on unplug
+- Remove Force triple frame buffers
+- Enable frame pacing for smoother visual performance
+- Don't report memcg functionality in cmdline
+- Disable backpressure prop(fixes lags)
+- Disable display refresh rate override (disable the android forcing 30fps for chrome youtube videos)
+- Remove debug.sf.disable_client_composition_cache 1 (fixes QS pull lag)
+- Up zram device to 6GB
+- Drop zygote critical window(useless)
+- Allow all filesystems for USB-OTG
+- Update adm value to 12 to fix sound cracking
+- Start audio rpc daemon early to improve performance
+- Set ro.boot.hardware.revision property will show in Settings > About phone > Model > Hardware version
+- Add restart SystemUI in Advanced Reboot
+- Add config for refresh rate tile
+- Nuke smooth display from display settings(as we got 60-90-120 Hz options now)
+- Extend audio offload buffer size to 256kb (wake cpu less to load audio)
+- Handle some denials and vendor props to improve oplus camera
+- Shipped Aperture Cam for reliability
+- few more changes under the hood.  
 
 Notes:
 ==============================
