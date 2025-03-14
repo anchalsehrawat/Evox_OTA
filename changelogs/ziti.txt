@@ -26,7 +26,6 @@ Devices side changes:
 - Add config for refresh rate tile
 - Nuke smooth display from display settings(as we got 60-90-120 Hz options now)
 - Extend audio offload buffer size to 256kb (wake cpu less to load audio)
-- Handle some denials and vendor props to improve oplus camera
 - Shipped Aperture Cam for reliability
 - few more changes under the hood.  
 
