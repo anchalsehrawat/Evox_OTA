@@ -13,6 +13,7 @@ Devices side changes:
 - based on lineage-22.2 (QPR-2)
 - Audio cracking fixed (by pj ofc)
 - adjusted status bar padding
+- tried to fix opcam
 - other under the hood changes
 
 Notable ROM changes:
