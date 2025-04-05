@@ -9,10 +9,11 @@ Devices side changes:
 - Adpat Powerhints from pixel devices for lahaina and yupik
 - i.e, Performance and battery improvements
 - switch to a55 cortex while building
-- Don't allow restriced taskon big cores
+- Don't allow restriced task on big cores
 - based on lineage-22.2 (QPR-2)
 - Audio cracking fixed (by pj ofc)
 - adjusted status bar padding
+- tried to fix opcam
 - other under the hood changes
 
 Notable ROM changes:
