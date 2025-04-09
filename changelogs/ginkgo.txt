@@ -1,2 +1,0 @@
-• Initial Android 15 Release
-• Hold more apps in RAM for longer periods

@@ -1,0 +1,10 @@
+Highlights & Device Specific Changes:
+Build type: Testing/Alpha/Beta/Weekly/Monthly
+Device: Device name (<device codename>)
+Device maintainer: Name (nickname)
+Required firmware: add if any else remove this line
+
+===== <date> =====
+- change 1
+- change 2
+- change 3
