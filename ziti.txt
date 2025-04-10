@@ -1,10 +1,9 @@
 Highlights & Device Specific Changes:
-Build type: Testing/Alpha/Beta/Weekly/Monthly
-Device: Device name (<device codename>)
-Device maintainer: Name (nickname)
-Required firmware: add if any else remove this line
+Build type: Testing
+Device: OnePlus Nord CE3 5G (ziti)
+Device maintainer: Loid
 
-===== <date> =====
-- change 1
-- change 2
-- change 3
+
+===== 10/04/2025 =====
+- Initial Build
+- All the device side changes from previous roms.
