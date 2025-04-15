@@ -1,8 +1,16 @@
 Highlights & Device Specific Changes:
-Build type: Testing
+Build type: Monthly
 Device: OnePlus Nord CE3 5G (ziti)
 Device maintainer: Loid
 
+===== 15/04/2025 =====
+- April SP
+- Synced with latest source changes
+- Added Power Menu styles 
+
+Known Issues: 
+- Torch tile in qs might be dead.
+- Night mode in opcam
 
 ===== 10/04/2025 =====
 - Initial Build
