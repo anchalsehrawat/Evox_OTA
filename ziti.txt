@@ -3,6 +3,11 @@ Build type: Monthly
 Device: OnePlus Nord CE3 5G (ziti)
 Device maintainer: Loid
 
+===== 23/04/2025 =====
+- Disabled FRP to get things working without gapps/google login.
+- Synced with latest source
+- Issue: Torch tile in QS dead.
+
 ===== 15/04/2025 =====
 - April SP
 - Synced with latest source changes
