@@ -2,21 +2,22 @@
   "response": [
     {
       "maintainer": "Loid",
+      "currently_maintained": false,
       "oem": "Oneplus",
       "device": "Nord CE3 5G",
-      "filename": "EvolutionX-15.0-20250422-ziti-10.5-Unofficial.zip",
-      "download": "https://sourceforge.net/projects/evox-unofficial-ziti/files/Release/EvolutionX-15.0-20250422-ziti-10.5-Unofficial.zip/download",
-      "timestamp": 1745315238,
-      "md5": "12d1fa655b7e967ee5c8b2200a30e067",
-      "sha256": "bbff9b892e544692f088733e3528a0ec19f357ecada8ae401b1f07073fd17f63",
-      "size": 3349388771,
-      "version": "10.5",
+      "filename": "EvolutionX-15.0-20250507-ziti-10.6-Unofficial.zip",
+      "download": "https://sourceforge.net/projects/evox-unofficial-ziti/files/Release/EvolutionX-15.0-20250507-ziti-10.6-Unofficial.zip/download",
+      "timestamp": 1746649211,
+      "md5": "b870fcd0c19b438ad950d18cef6f44cb",
+      "sha256": "72316ae81cb90ac29ea53a74f92f0c0307cc039bf9c15039a65c5aa1a0388d7e",
+      "size": 3349200931,
+      "version": "10.6",
       "buildtype": "userdebug",
       "forum": "",
       "firmware": "",
       "paypal": "",
-      "telegram": "",
       "github": "",
+      "sourceforge": "",
       "initial_installation_images": []
     }
   ]
