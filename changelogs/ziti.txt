@@ -4,11 +4,12 @@ This is Android 15 QPR2 with May 2025 security patches
 
 Vanilla build
 Devices side changes:
-- Control QS torch tile strength 
+- Revert back to previous changes 
 
 Notable ROM changes:
 ==============================
 - Sync with latest source
+- Add toggle to spoof PI 
 
 Notes:
 ==============================
