@@ -4,11 +4,12 @@ This is Android 15 QPR2 with May 2025 security patches
 
 Gapps build
 Devices side changes:
-- Control QS Torch tile strength
+- Reverted back to previous changes
 
 Notable ROM changes:
 ==============================
 - Sync with latest source
+- Add toggle to pass PI with spoofing SDK_INIT
 
 Notes:
 ==============================
