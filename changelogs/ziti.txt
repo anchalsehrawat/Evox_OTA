@@ -1,0 +1,17 @@
+## You are responsible for your actions.
+
+This is Android 15 QPR2 with May 2025 security patches
+
+Gapps build
+Devices side changes:
+- Control QS Torch tile strength
+
+Notable ROM changes:
+==============================
+- Sync with latest source
+
+Notes:
+==============================
+- LineageOS-based source.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Credits to EvoX team, PJGowtham
