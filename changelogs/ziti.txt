@@ -1,17 +1,25 @@
 ## You are responsible for your actions.
 
-This is Android 15 QPR2 with May 2025 security patches
-
 Gapps build
+
+This is Android 16 with June 2025 security patch.
+Clean Flash recommended
+
+
 Devices side changes:
-- Control QS Torch tile strength
+- Removed Powerhint from pixel devices for now
+- Shipped with Dolby, OplusCam
+- Synced with PJ's Tree changes
 
 Notable ROM changes:
 ==============================
-- Sync with latest source
+- Initial Android 16 Build
+- Sync with latest EvoX source
+
 
 Notes:
 ==============================
+- Use Vanilla Build if having issues with Gapps
 - LineageOS-based source.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to EvoX team, PJGowtham
