@@ -2,24 +2,25 @@
 
 Gapps build
 
-This is Android 16 with June 2025 security patch.
-Clean Flash recommended
-
+This is Android 16 with July 2025 security patch.
+Clean Flash recommended.
 
 Devices side changes:
-- Removed Powerhint from pixel devices for now
-- Shipped with Dolby, OplusCam
-- Synced with PJ's Tree changes
+- Torch Works
+- changed kernel to avoid app drawer flikers
+@mvimal2607 's kernel (fork of pj)
+	- NFC might not work because of this
+- same as before
 
 Notable ROM changes:
 ==============================
-- Initial Android 16 Build
 - Sync with latest EvoX source
+- Most of the useful stuffs are available.
 
 
 Notes:
 ==============================
-- Use Vanilla Build if having issues with Gapps
+- Only GMS Supports OTA Update (EvoX source skill restraint).
 - LineageOS-based source.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Credits to EvoX team, PJGowtham
