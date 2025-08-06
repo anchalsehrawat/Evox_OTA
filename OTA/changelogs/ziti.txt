@@ -1,0 +1,12 @@
+***************************************
+- Changelogs for wly
+***************************************
+
+- initial release
+- oplus cam
+- dolby
+- vibration might be dead
+- app drawer flicker (flash sixteen kernel if that works for you)
+
+Credits- @pjgowtham
+Disclaimer: You're responsible for any mess you do with your device.
