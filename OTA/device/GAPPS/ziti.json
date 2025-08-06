@@ -1,0 +1,21 @@
+{
+	"response": [
+		{
+			"maintainer": "Loid",
+			"oem": "OnePlus",
+			"device": "Nord CE3",
+			"filename": "",
+			"download": "",
+			"timestamp": ,
+			"md5": "",
+			"sha256": "",
+			"size": ,
+			"version": "8.0",
+			"buildtype": "STABLE",
+			"forum": "https://t.me/oneplusnordce35g",
+			"recovery": "",
+			"paypal": "https://github.com/sponsors/RisingOS-Revived",
+			"telegram": "https://t.me/oneplusnordce35g"
+		}
+	]
+}
