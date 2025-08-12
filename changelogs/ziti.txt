@@ -14,10 +14,11 @@ Notes:
 - Vanilla/GMS Supports OTA Update.
 - Clean Flash recommended. Always dirty flash at your own risk. 
   - If your device bootloops, revert to an older build that boots or factory reset.
-- Credits to EvoX team and PJGowtham
 - flash @mvimal2607 's kernel from TGgroup to avoid app drawer flickers (fork of pj). 
   If you do so take backup or flash after initial boot, it might/will ask for factory reset.
 	- NFC might not work because of this
+- Credits to EvoX team and PJGowtham
+
 
 Devices side changes:
 ==============================
