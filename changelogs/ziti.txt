@@ -1,26 +1,78 @@
-## You are responsible for your actions.
+## 
+==You are responsible for your actions.==
+##
 
-Gapps build
-
-This is Android 16 with July 2025 security patch.
-Clean Flash recommended.
-
-Devices side changes:
-- Vibration Fix
-- flash @mvimal2607 's kernel from TGgroup to avoid app drawer flikers
- (fork of pj)
-	- NFC might not work because of this
-- same as before
-
-Notable ROM changes:
+Issues:
 ==============================
-- Sync with latest EvoX source
-- Most of the useful stuffs are available.
-
+- Half-Brightness slider less responsive
+- App drawer flickers
 
 Notes:
 ==============================
-- Only GMS Supports OTA Update (EvoX source restraint).
+- This is Android 16 with July 2025 security patch.
 - LineageOS-based source.
-- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Credits to EvoX team, PJGowtham
+- Vanilla/GMS Supports OTA Update.
+- Clean Flash recommended. Always dirty flash at your own risk. 
+  - If your device bootloops, revert to an older build that boots or factory reset.
+- Credits to EvoX team and PJGowtham
+- flash @mvimal2607 's kernel from TGgroup to avoid app drawer flickers (fork of pj). 
+  If you do so take backup or flash after initial boot, it might/will ask for factory reset.
+	- NFC might not work because of this
+
+Devices side changes:
+==============================
+- Vibration Fix
+- QS Torch works
+- Oplus Cam, Dolby
+- Now Vanilla Should support OTAs too. [Caution: kernel change might require factory reset.]
+- same as before changes
+
+Notable ROM changes:
+==============================
+- Adapt pulse visualizer to A16
+- BiometricViewSizeBinder: Correct wrong corner radius px to px conversion
+- Defer remove splash screen while device is locked
+- Device policy: Fix security exception caused by uid/packagename mismatch
+- Evolver: Add missing rounded toggle for pulse
+- Evolver: MonetSettings: Manually set default values to preferences
+- FingerprintAuthenticationClient:fix NPE problem due to getListener method return var is null
+- Fix the system server restart issue caused by the fingerprint framework
+- KeyProviderManager: Accept N >= 1 certs per key
+- InputEventReceiver: Catch error in finishInputEvent()
+- PixelPropsUtils: Update fingerprints to August 2025 release
+- Set navbar color for device default settings theme
+- Settings: Fix slice data illegal state in credentials
+- SettingsLib: Use legacy material colors for settings' surface container
+- SystemUI: Add hotspot toggle in QS internet dialog
+- SystemUI: Don't show BuildNumber in new compose QS
+- SystemUI: Fixup fonts not updating on new compose QS
+- SystemUI: Introduce 5G toggle in internet connectivity dialog
+- SystemUI: Recreate media player on theme change
+- SystemUI: Remove edit button bg in QS customizer in new QS UI
+- SystemUI: Stabilize lambdas in QuickSettingsShadeOverlay
+- SystemUI: Use Material3 switches for internet and BT dialog tile
+- SystemUI: Use Material3 switches for screenrecord options
+- SystemUI: VolumeDialog: Fix inactive row colors
+- SystemUI: fix doze/keyguard issues
+- SystemUI: fix hotspot layout
+- SystemUI: fix shade blur customization
+- SystemUI: tiles: Preload all icon drawable for custom tiles
+- ThemeUtils: Improve overall usage
+- Themes: use legacy material background color
+- add workaround for upstream async dexopt bug
+- base: Add an icon for NR_SA (5G Standalone) data connection
+- fix boot failure with white wallpaper
+- fix footer actions theme
+- fix lockscreen elements randomly disappearing
+- fix screen off udfps preference visibility
+- fix settings material expressive issues
+- fix unsupported qs tile icon crash
+- fix upstream NPE crash in UserAspectRatioDetails.launchApplication()
+- fix upstream RecoverySystem.verifyPackage vulnerability
+- improve window ignore secure flag
+- make AOSP dialer call notifications not groupable
+- release: Bump Security String to 2025-08-01
+- release: Disable codec_availability flags
+- udfps: Add support for udfps on aod without dedicated sensor
+- use shared bitmaps in MediaMetadata to avoid Binder failures
+- vendor: Drop notification themed icons
