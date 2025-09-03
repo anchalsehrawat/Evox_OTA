@@ -27,7 +27,7 @@ Synced Changes made by PJ:
   - Make "Time to Full Charge" work
   - NFC Fix
   - Brightness adjustments
-  - OPlus Cam crashes 
+  - Fix OPlus Cam crashes 
 
 Notable ROM changes:
 ==============================
