@@ -6,31 +6,28 @@ Notes:
 ==============================
 - This is Android 16 with August 2025 security patch.
 - LineageOS-based source.
-- Vanilla/GMS Supports OTA Update: Only Those who are on default kernel should go with OTA
+- Supports OTA Update (still keep things backed-up)
 - Credits to EvoX team and PJGowtham
-
 
 Issues:
 ==============================
 - App drawer flickers
   Workarounds:
-  - Use back gestures instead of Home screen swipes
+  - Use back gestures instead of Home screen swipes OR
+  - Use Button Navigation OR
   - flash @mvimal2607 's kernel from TGgroup to avoid app drawer flickers (fork of pj). 
     Take backup/flash after initial boot, it will ask for factory reset.
     (NFC may/maynot work because of this kernel)
 
-
 Devices side changes:
 ==============================
-- Synced Changes made by PJ: 
-  Update Patches for reverting to stock from Evox recovery
-  OPlus charger & horae services for charging and temp controls
-  Make "Time to Full Charge" work
-  NFC Fix
-  Brightness adjustments
-  OPlus Cam crashes 
-
-
+Synced Changes made by PJ: 
+  - Update Patches for reverting to stock from Evox recovery
+  - OPlus charger & horae services for charging and temp controls
+  - Make "Time to Full Charge" work
+  - NFC Fix
+  - Brightness adjustments
+  - OPlus Cam crashes 
 
 Notable ROM changes:
 ==============================
