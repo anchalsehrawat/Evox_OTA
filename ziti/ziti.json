@@ -1,0 +1,17 @@
+    {
+      "response": [
+        {
+          "datetime": 1758067466,
+          "filename": "YAAP-16-HOMEMADE-ziti-20250917.zip",
+          "payload": [
+            {
+              "offset": 4410,
+              "FILE_HASH": "oIiNHWcoBc68KtqMwoE/fqnNet9Y0uhdCMxkHQGxtss=",
+              "FILE_SIZE": "2271310696",
+              "METADATA_HASH": "b/ct/OUye2wkfbLp1ayHBodU2e1aAJMPi3zo3BKnMRQ=",
+              "METADATA_SIZE": "150681"
+            }
+          ]
+        }
+      ]
+    }
