@@ -1,9 +1,1 @@
-- Initial Build
-- Sept SP
-- Supports OTA
-- Supports reverting to stock
-- oplus cam
-- dolby
-- enabled DC Dimming
-- synced trees for yaap changes
-- etc...
+- testing for fp
