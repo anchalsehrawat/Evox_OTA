@@ -1,14 +1,14 @@
     {
       "response": [
         {
-          "datetime": 1758067466,
-          "filename": "YAAP-16-HOMEMADE-ziti-20250917.zip",
+          "datetime": 1758164037,
+          "filename": "YAAP-16-HOMEMADE-ziti-20250918.zip",
           "payload": [
             {
               "offset": 4410,
-              "FILE_HASH": "oIiNHWcoBc68KtqMwoE/fqnNet9Y0uhdCMxkHQGxtss=",
-              "FILE_SIZE": "2271310696",
-              "METADATA_HASH": "b/ct/OUye2wkfbLp1ayHBodU2e1aAJMPi3zo3BKnMRQ=",
+              "FILE_HASH": "i9vlsbeKvsuhn/MtSLesBkZPRxEb3o8NgmnjMBpwpFQ=",
+              "FILE_SIZE": "2270981077",
+              "METADATA_HASH": "2fdLqGZ8+DLOPVrF5GywL/ngQL8ltixAwA/fCxCN1NE=",
               "METADATA_SIZE": "150681"
             }
           ]
