@@ -11,59 +11,40 @@ Notes:
 
 Devices side changes:
 ==============================
--Update battery info every second when device is charging
--audio: Fix mic issues in apps like WhatsApp
--audio: Fix low mic volume on VoIP
--Enable ADPF CPU hints for improved UI performance :- improving overall UI responsiveness and frame pacing on Snapdragon devices.
--Enable VoNR Calls support
--rootdir: Restrict apps access to /proc/net/unix :- for some banking apps
--Set game refresh rate override to 120
--Compile HWUI for performance 
--properties: Use HintManager for HWUI
--prop: Add a property to enable prefetching video :- improve playback performance for high frame-rate and high bitrate content
--Disable debug.sf.latch_unsignaled :- Disabling this helps reduces notification QS lag, UI performance is not impacted.
--properties: Enable support for kernel idle timer
--Disable Skia tracing by default
--overlay: configure SQLite to operate in MEMORY mode
--Add prop. to save battery life
--rootdir: Fix the battery drain due to statsd
--overlay: Disable alpha compositing in WM :- Completely eliminates occasional jank in few animations
--props: Disable vsync for CPU rendered Apps
--props: Enable config_avoidGfxAccel :- reduces RAM usage and gives better smoothness in the UI.
--Push 120 FPS for ScreenRecorder :- switch manually to 60fps if causes heating/issues
--overlay: Optimized auto brightness adjustment
--enable DC Dimming (to be tested)
+- Nothing major 
 
 Notable ROM changes:
 ==============================
-Merge October 2025 security patches
-Settings: Fix gpu renderer options unsetting hwui renderer
-SystemUI: ScrimUtils: Fix initial value for keyguard showing
-apns: Update for CTM(Macau)
-libs: intercepting hwui renderer property read
-statsd: Disable native stats collection service
-version: Uprev to 11.3
-------------------------------
-Fix ConcurrentModificationException in LocaleStore
-KeyGestureController: Fix broken actions for Assist key press and long press
-Match legacy toast view with SystemUI
-Pulse: Add fading block renderer
-Pulse: Use visibility guard for draw and engine process
-ScreenshotController: Clean up resources when dismissed
-ScreenshotController: Play haptic feedback even on normal ringer mode
-Settings: Allow disabling refresh rate lowering in battery saver
-Settings: Ambient Music Ticker - Allow to pulse on new tracks
-SettingsLib: add alwaysExpand to TopIntroPreference
-SettingsLib: fix RestrictedPreference not updating properly
-SystemUI: Show icon of package associated with Toast
-SystemUI: Utilities: Update for media control
-Update translations
-Updater: Adjust menu_auto_updates_check to prevent truncation
-Updater: Automatically check for updates when connectivity is restored
-Updater: Catch exceptions when enabling performance mode
-Updater: Replace manual refresh with auto refresh
-Updater: Set UPDATE_RECOVERY_PROPERTY explicitly to false if hidden
-core: Improve notification toast format and fix for apps < sdk 29
-release: Enable move_transition_animation_layer
-remove low ram check for voice recognition pre-grant
-system: Postpone NetworkWatchlistService scan during boot
+Evolver: Add Dynamic charging ripple switch 
+Evolver: Bring back wallpaper blur and dim feature
+LMOFreeform: Fix NPE in service manager
+LMOFreeform: Fix app drawer and edit icon disappearing with low bg transparency
+LMOFreeform: Fix back handling on customization page
+LMOFreeform: Refactor FreeformWindow to use nullable types and improve initialization checksShow description for d65928e
+LMOFreeform: Remove hardcoded strings from customization page
+PixelPropsUtils: Update fingerprints to October 2025 release
+Remove commit causing BT disconnection issues
+Remove commit causing memory leaks in launcher
+Settings: Fix stray divider in connected devices screen
+Settings: Notification bundles: remove empty drawable
+Settings: Notification summaries: remove empty drawable
+Settings: display: allow changing HDR brightness intensity
+Settings: store cloned profile user id
+Spoof encrytion prop as encrypted
+SystemUI: Add/remove notification listener enhancement
+SystemUI: Improve edge light feature
+SystemUI: Improve guarding header image
+SystemUI: Improve pulse on new tracks feature
+WallpaperUtils: Switch to PNG compression for faster loading
+config: Load boot image profile from frameworks/base
+config/common: Disable dexpreopt debug info on user builds
+config/common: Reduce system server verbosity
+config/common: preopt extracted apk always
+core: add audio policy to fix AOSP audio cpu usage
+fonts: add missing blacklist checks | font weight adjustment fix
+sepolicy: Address denial for webview crash
+sepolicy: Allow vending to read spoof xml
+skip mediametrics when statsd is not available
+task_profiles: Use foreground cpuset for SurfaceFlinger
+vendor: Do not clone default AudioFX app
+vendor: component-overrides: Force disable google settings intelligence injects
