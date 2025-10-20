@@ -1,0 +1,13 @@
+{
+    "response": [
+        {
+            "datetime": 1760927551,
+            "filename": "axion-2.1-NIGHTLY-20251020-COMMUNITY-VANILLA-ziti.zip",
+            "id": "ddee6a87d3d49ef13270c0dfa8859068",
+            "romtype": "COMMUNITY",
+            "size": 2215188250,
+            "url": "https://github.com/AxionAOSP/AxionOS_Pixels/releases/download/2.1/axion-2.1-NIGHTLY-20251020-COMMUNITY-VANILLA-ziti.zip",
+            "version": "2.1"
+        }
+    ]
+}
