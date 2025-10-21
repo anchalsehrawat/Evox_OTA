@@ -1,5 +1,10 @@
-AxionAOSP v2.1
-Date - 16/10/2025
-=================
--
+## Keep your backups, you are responsible for your actions. ##
 
+AxionAOSP v2.1
+Date - 20/10/2025
+=================
+- All the EvoX Device side changes.
+- Dolby
+- Oplus cam
+- Recovery supports reverting
+- OTA support included.

@@ -1,12 +1,12 @@
 {
     "response": [
         {
-            "datetime": 1760927551,
+            "datetime": 1760975976,
             "filename": "axion-2.1-NIGHTLY-20251020-COMMUNITY-VANILLA-ziti.zip",
-            "id": "ddee6a87d3d49ef13270c0dfa8859068",
+            "id": "4d314f89070d7671aecbf7222e336870",
             "romtype": "COMMUNITY",
-            "size": 2215188250,
-            "url": "https://github.com/AxionAOSP/AxionOS_Pixels/releases/download/2.1/axion-2.1-NIGHTLY-20251020-COMMUNITY-VANILLA-ziti.zip",
+            "size": 2215709168,
+            "url": "https://pixeldrain.com/api/file/F5ccvEbH?download",
             "version": "2.1"
         }
     ]
