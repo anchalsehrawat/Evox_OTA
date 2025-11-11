@@ -1,4 +1,16 @@
 ## Keep your backups, you are responsible for your actions. ##
+Always flash GMS over GMS and Vanilla over Vanilla when doing OTA or dirty flashing.
+
+=================
+DO NOT FLASH ANY CUSTOM ROM/SYSTEM UPDATE OVER OOS15.0.0.1301(with unlocked BL).
+IT WILL HARD BRICK. NO SOLUTION AS OF NOW.
+=================
+
+v2.2
+Date - 10/11/2025
+=================
+- Same device side changes 
+- with synced latest source.
 
 AxionAOSP v2.1
 Date - 20/10/2025
