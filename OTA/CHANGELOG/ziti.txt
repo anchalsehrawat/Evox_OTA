@@ -2,9 +2,17 @@
 Always flash GMS over GMS and Vanilla over Vanilla when doing OTA or dirty flashing.
 
 =================
-DO NOT FLASH ANY CUSTOM ROM/SYSTEM UPDATE OVER OOS15.0.0.1301(with unlocked BL).
-IT WILL HARD BRICK. NO SOLUTION AS OF NOW.
+DO NOT FLASH ANY CUSTOM ROM/SYSTEM UPDATE/DOWNGRADE WITH PREVIOUS FIRMWARE OVER OOS15.0.0.1301(with unlocked BL).
+IT WILL HARD BRICK. ONLY SOLUTION SERVICE CENTER FOR HARD BRICKS.
 =================
+
+v2.2.1
+Date - 25/11/2025
+=================
+- Shipped without firmware (safe for oos15.0.0.1301 users and non 1301 users as well)
+- Reverting to 1301 version is not tested on 1301 user's device yet.
+- Source updates and fixes 
+
 
 v2.2
 Date - 10/11/2025
