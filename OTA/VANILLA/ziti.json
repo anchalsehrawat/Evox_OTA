@@ -1,13 +1,13 @@
 {
     "response": [
         {
-            "datetime": 1764081961,
-            "filename": "axion-2.2.1-NIGHTLY-20251125-UNOFFICIAL-VANILLA-ziti.zip",
-            "id": "2a0edccc8e4d0ffe57d65ec38fef56e4",
+            "datetime": 1766744580,
+            "filename": "axion-2.3-BETA-20251226-UNOFFICIAL-VANILLA-ziti.zip",
+            "id": "536adc13915fc20c6a7e7f1c535c1cee",
             "romtype": "UNOFFICIAL",
-            "size": 2110931399,
-            "url": "https://sourceforge.net/projects/axionaosp-unofficial-ziti/files/Release/axion-2.2.1-NIGHTLY-20251125-UNOFFICIAL-VANILLA-ziti.zip/download",
-            "version": "2.2.1"
+            "size": 2107796649,
+            "url": "https://sourceforge.net/projects/axionaosp-unofficial-ziti/files/Release/axion-2.3-BETA-20251226-UNOFFICIAL-VANILLA-ziti.zip/download",
+            "version": "2.3"
         }
     ]
 }

@@ -1,13 +1,13 @@
 {
     "response": [
         {
-            "datetime": 1764075776,
-            "filename": "axion-2.2.1-NIGHTLY-20251125-UNOFFICIAL-GMS-ziti.zip",
-            "id": "0a8eff31c568af99df941267c664f36b",
+            "datetime": 1766739950,
+            "filename": "axion-2.3-BETA-20251226-UNOFFICIAL-GMS-ziti.zip",
+            "id": "e7572357c91ec874e93ee86c6912ea4a",
             "romtype": "UNOFFICIAL",
-            "size": 2424350760,
-            "url": "https://sourceforge.net/projects/axionaosp-unofficial-ziti/files/Release/axion-2.2.1-NIGHTLY-20251125-UNOFFICIAL-GMS-ziti.zip/download",
-            "version": "2.2.1"
+            "size": 2421410741,
+            "url": "https://sourceforge.net/projects/axionaosp-unofficial-ziti/files/Release/axion-2.3-BETA-20251226-UNOFFICIAL-GMS-ziti.zip/download",
+            "version": "2.3"
         }
     ]
 }
