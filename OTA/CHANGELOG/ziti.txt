@@ -8,13 +8,14 @@ IT WILL HARD BRICK. ONLY SOLUTION SERVICE CENTER FOR HARD BRICKS.
 
 
 v2.3- BETA
-Date - 26/12/2025
+Date - 27/12/2025
 =================
 - QP1 based
-- Oplus cam will be pushed later
+- No Oplus cam
 - Rest source side changes
 - with reduced blur effect on perf and stuff
-
+- Added KsuNext-v1.1.1 with susf
+- Reduced blur radius
 
 v2.2.1
 Date - 25/11/2025
