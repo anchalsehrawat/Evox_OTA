@@ -1,1 +1,51 @@
-- testing for fp
+## Keep your backups, you are responsible for your actions. ##
+
+=================
+DO NOT FLASH ANY CUSTOM ROM/SYSTEM UPDATE/DOWNGRADE WITH PREVIOUS FIRMWARE OVER OOS15.0.0.1301+(with unlocked BL)
+IT WILL HARD BRICK. ONLY SOLUTION SERVICE CENTER FOR HARD BRICKS. FLASH SAME FIRMWARE ON BOTH SLOTS BEFORE PROCEDING WITH CUSTOM ROMS 1301+ USERS OR READ THE INSTRUCTIONS PROPERLY.
+=================
+------------------
+YAAP-16 Unofficial
+------------------
+
+18-01-2026 (QPR-2 based)
+===========
+DEVICE:
+- Firmware not shipped by default 
+- Oplus cam, Dolby included
+- Not so initial release
+- User-signed GMS build
+- Fixed lag/jitters 
+- Secure Power off/restart menu on lockscreen (added separately was not present in source)
+- Fixed udfp sensor illumination on AOD/screen off fp.
+- Vibration fixed
+- Switch to EROFS for more optimised storage performance 
+- Better app opening/closing & faster app installation and faster booting. Also reduces Android system space & OTA package size reduced by 90-100mb
+- faster the ota installation process (use local install. OTA not possible without a server that can support it.)
+- fix lockscreen charging info
+- Fix the flicker on turning off the screen when udfps is enabled
+- Hardcoded lower value for blur in app drawer and launcher
+- Lesser janks for app opening/closing from drawer
+- Remove commit probably causing OTG failure
+- Redo Brightness (Thanks to amit)
+- Torch strength included
+- DC Dimming included 
+- disable dm-verity check in vbmeta
+- Powerhint from coral
+- similar common tree changes from evox/axion
+- lineage upstreamed kernel (Thanks to @mvimal2607)
+
+ROM:
+- Add back QPR2 Smartspace as a lockscreen weather provider
+- Add blurs option to fine-tuned battery saver
+- Allow setting a wider range for battery saver schedule %
+- Enable Expressive UI in GMS Setup Wizard
+- Fix non persisting toggles in fine-tuned battery saver
+- Fix broken toggles in fine-tuned battery saver
+- Fix charging sounds toggle title
+- Launcher: fix hide label toggle hiding popup labels
+- Launcher: drop configurable blur radius due to performance issues
+- Resize some statusbar icons to better fit the rest
+- Fix QS network traffic monitor on white theme
+- Fix setup wizard crash on Vanilla
+- Launcher: Bring back add app icon to home screen toggle
