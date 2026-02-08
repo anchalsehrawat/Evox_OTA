@@ -1,2 +1,24 @@
-- test fp 
-- shifted urcc to aidl 
+## Keep your backups, you are responsible for your actions. ##
+
+=================
+DO NOT FLASH ANY CUSTOM ROM/SYSTEM UPDATE/DOWNGRADE WITH PREVIOUS FIRMWARE OVER OOS15.0.0.1301+(with unlocked BL)
+IT WILL HARD BRICK. ONLY SOLUTION SERVICE CENTER FOR HARD BRICKS. FLASH SAME FIRMWARE ON BOTH SLOTS BEFORE PROCEDING WITH CUSTOM ROMS 1301+ USERS OR READ THE INSTRUCTIONS PROPERLY.
+=================
+------------------
+YAAP-16 Unofficial
+------------------
+
+08-02-2026 (QPR-2 based)
+===========
+DEVICE:
+- Firmware not shipped by default 
+- User-signed VANILLA build: You can not flash gapps or addons. have to use MicroG inbuilt.
+- use local install. OTA not possible without a server that can support it.
+- Remove Hardcoded lower value for blur in app drawer and launcher
+
+ROM:
+- Launcher3 PERF fix: remove all apps themed icons option
+- Launcher3: colors: remove blue tint
+- Reapply "Launcher3: Add an option to customize blur radius"
+- Launcher3: Prevent LauncherPrefs crash during direct boot
+- All previous changes from source.
