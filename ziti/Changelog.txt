@@ -8,7 +8,15 @@ IT WILL HARD BRICK. ONLY SOLUTION SERVICE CENTER FOR HARD BRICKS. FLASH SAME FIR
 YAAP-16 Unofficial
 ------------------
 
-8-02-2026 (QPR-2 based)
+10-02-2026
+===========
+Device:
+- Added Black Theme in Dark Mode
+- Added Ignore Secure Window 
+- Added QS & UI performance tweaks
+- other under the hood stuff
+
+08-02-2026 (QPR-2 based)
 ===========
 DEVICE:
 - Firmware not shipped by default 
