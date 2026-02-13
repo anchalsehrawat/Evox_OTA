@@ -8,6 +8,14 @@ IT WILL HARD BRICK. ONLY SOLUTION SERVICE CENTER FOR HARD BRICKS. FLASH SAME FIR
 YAAP-16 Unofficial
 ------------------
 
+13-02-2026
+===========
+Device: 
+- Added Oplus IR Remote
+- Show VOOC charging on Lockscreen
+- Decouple auto-suspend and interactive state from display-Maximises Power saving 
+- Allow camera/gcam/snapcam to skip high frame rate checks
+
 10-02-2026
 ===========
 Device:
