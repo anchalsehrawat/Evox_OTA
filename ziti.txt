@@ -3,20 +3,324 @@ Build type: Monthly
 Device: OnePlus Nord CE3 5G (ziti)
 Device maintainer: Loid
 
-===== 23/04/2025 =====
-- Disabled FRP to get things working without gapps/google login.
-- Synced with latest source
-- Issue: Torch tile in QS dead.
+====================
+     03-03-2026
+====================
 
-===== 15/04/2025 =====
-- April SP
-- Synced with latest source changes
-- Added Power Menu styles 
+   * device/oneplus/sm8350-common
+ab244e7 powerhal: Address permission denials on /proc/sys nodes.
+f05a988 logd: kernel: Allow injecting kernel logs into logcat
+9e97de3 sm8350-common: Build DeviceAsWebcam service
+5851434 sm8350-common: Setup DeviceAsWebcam
+15fbc96 sm8350-common: overlay: Reduce blur radius
 
-Known Issues: 
-- Torch tile in qs might be dead.
-- Night mode in opcam
+   * frameworks/base
+9a4beb4f540c SystemUI: Fix notification flicker with transluency enabled
+3d33b992928e SystemUI: Add gradient for volume buttons along with slider
+c9c7b1dc946b Revert "fix upstream AppWidgetConfigActivityProxy system_server crash"
+05bb58e2e987 Revert "fixup! fix upstream AppWidgetConfigActivityProxy system_server crash"
+c5a825d50dd1 SystemUI: Use proper media buttons for ongoing action chip and theme it
+fdc461f2d174 SystemUI: Refactor ongoing action progress chip
+39fb9ecca4bf SystemUI: Clean up legacy code in ongoing action progress chip
+a6cfaa08a0db SystemUI: Ongoing action progressbar chip implementation
 
-===== 10/04/2025 =====
-- Initial Build
-- All the device side changes from previous roms.
+   * hardware/lineage/compat
+72bdb98 libjsoncpp: Define 64-bit integer constructors
+1c198e2 compat: Provide libjsoncpp-v30
+
+   * lineage/hudson
+61b0403 Regenerate device dependency mappings
+
+   * lineage/mirror
+e068bf0 Updated to 02-Mar-2026 23:01 UTC
+
+====================
+     03-02-2026
+====================
+
+   * device/oneplus/sm8350-common
+211a094 Revert "sm8350-common: powerhint: Improve Powerhint for ziti"
+8231d95 Revert "WIP:sm8350-common: Powerhint: Tune duration of interaction and launch efficiently for ziti"
+
+   * device/oneplus/ziti
+b8e65ab Revert "Remove inclusion of keys.mk from lineage_ziti.mk"
+
+   * hardware/qcom-caf/sm8550/display
+c0ad2c56d0 composer: Support Pixelworks HW iris 7 color calibration
+8027f8ab0c sdm: Support Pixelworks soft-iris color calibration
+de69e991b4 sdm: Operate FINGERPRINT_MASK for oplus optical UDFPS
+b7b1456f5a sdm: Support HBM for Samsung optical UDFPS
+408b447033 sdm: get around client compositioning for FOD pressed layer
+557b53d59a sdm: mark FOD pressed layer by setting a bit on ZPOS
+
+   * lineage/wiki
+5fae4457 wiki: NAVIC -> NavIC
+65b8657b wiki: pdx234/pdx235: Blue led -> blue star
+
+   * packages/apps/Aperture
+3b6bc17 Automatic translation import
+
+   * packages/apps/AudioFX
+05d6710 Automatic translation import
+
+   * packages/apps/Camelot
+27e5e16 Automatic translation import
+
+   * packages/apps/Catapult
+521a06c Automatic translation import
+
+   * packages/apps/Contacts
+45ccf1751 Automatic translation import
+
+   * packages/apps/DeskClock
+c01b9ddf8 Automatic translation import
+
+   * packages/apps/FMRadio
+408f46a Automatic translation import
+
+   * packages/apps/FlipFlap
+7cbeb3f Automatic translation import
+
+   * packages/apps/Glimpse
+097d818 Automatic translation import
+
+   * packages/apps/Jelly
+f2783ed Automatic translation import
+
+   * packages/apps/Profiles
+6cd3b62 Automatic translation import
+
+   * packages/apps/Recorder
+b670004 Automatic translation import
+
+   * packages/apps/Twelve
+29b5126 Automatic translation import
+
+   * packages/apps/crDroidSettings
+197f2fed crdroid: Place action chip below status bar icons and update string
+949fa942 crdroid: Update string for clock background chip
+dbc056c9 crdroid: Add ongoing action chip implementation
+
+   * packages/providers/DownloadProvider
+719d3b63 Automatic translation import
+
+   * packages/resources/devicesettings
+546d732 Automatic translation import
+
+   * packages/services/Mms
+d6713d2 Automatic translation import
+
+   * vendor/crowdin
+0a75736 Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+f339ceb Automatic translation import
+
+====================
+     03-01-2026
+====================
+
+   * frameworks/base
+64d358c8e0df SettingsTheme: Correctly theming AlertDialog with M3 colors
+
+   * frameworks/libs/systemui
+328d203 iconloaderlib: do not invalidateSelf during alpha transitions
+
+   * kernel/oneplus/sm8350
+73654e12ca60 power: oplus: optiga: switch to upstream sha256()
+
+   * lineage/crowdin
+414d31a config: Remove 23.0 support
+
+   * lineage/hudson
+4107ad8 RIP 23.0
+
+   * lineage/wiki
+9ee79441 wiki: RIP 23.0
+
+   * packages/apps/crDroidSettings
+9a180583 crdroid: Convert system font picker to preference dialog
+0f342c12 crdroid: Convert lockscreen clock font picker to preference dialog
+071a9d96 crdroid: Disable gradient start/end colors for auto mode
+b859e9cc crdroid: Set height for custom selector preferences
+cfa12642 crdroid: Convert logo fragment to preference dialog
+a950dde6 crdroid: Convert background clock chip fragment to preference dialog
+
+====================
+     02-28-2026
+====================
+
+   * frameworks/av
+29655a682f fix null derefence exception when surface is reset
+
+   * frameworks/base
+27fa0d7d90d3 fixup! SystemUI: Add QS tile gradient customization
+994ce5fcdf0e Fix secondary user crash with system user locked
+aabe1ddb2da2 Fix external storage access with system user locked
+9aba0edbbfea Avoid NPE in CriticalEventLog.saveLogToFileNow()
+ac1394991da4 fixup! fix upstream AppWidgetConfigActivityProxy system_server crash
+be860891d125 fix upstream AppWidgetConfigActivityProxy system_server crash
+9c580a041757 SystemUI: Add custom gradient start/end color support
+9c4371f2d480 SystemUI: Add volume slider gradient customization
+3e9e56f8b8dd SystemUI: Add QS brightness slider gradient customization
+d5ef015995c7 SystemUI: Add QS tile gradient customization
+
+   * hardware/qcom-caf/common
+50b2e0f common: Add sm8450-6.6 support
+0b13366 common: Don't hardcode data-ipa-cfg-mgr soong namespace for UM 5.10+
+
+   * kernel/oneplus/sm8350
+dc87302ff85d oplus_touchscreen_v2: Drop ABS_TOUCH_COST_TIME_KERNEL bit
+
+   * lineage/hudson
+63836c0 Regenerate device dependency mappings
+
+   * lineage/mirror
+49bc680 Updated to 27-Feb-2026 23:01 UTC
+
+   * packages/apps/ColumbusService
+499a0dc ColumbusService: Updated the RU translation
+
+   * packages/apps/Launcher3
+6e309fe593 Launcher3: AllAppsRecyclerView: preinflate more app icons
+3a7bbf560e Launcher3: BaseAllAppsAdapter: silence bad logspam
+1ac3157796 Launcher3: Optimize AllApps perf and icon allocations
+
+   * packages/apps/crDroidSettings
+48d993a1 crdroid: Add gradients customization
+
+   * packages/modules/Wifi
+9e57626f33 Fix Wi-Fi hotspot freeze on driver failure
+
+   * tools/extract-utils
+246c7c0 extract_utils: allow filename only symlink
+
+====================
+     02-27-2026
+====================
+
+   * device/oneplus/sm8350-common
+0f59e44 WIP:sm8350-common: Powerhint: Tune duration of interaction and launch efficiently for ziti
+
+   * lineage/mirror
+acd2f39 Updated to 26-Feb-2026 11:01 UTC
+
+   * lineage/wiki
+a81d703c wiki: Update required fw version for benz and salami
+
+   * packages/apps/ExactCalculator
+c9b0487 ExactCalculator: Swap dec_point and digit_zero
+
+   * packages/apps/Updater
+d53a29f New translations (#94)
+cf8a561 Updater: Fix turkey translation
+
+   * vendor/apn
+fe64e68 apn: Update Netgsm
+
+   * vendor/oneplus/dolby
+ab92630 Merge https://github.com/frost-testzone/vendor_oneplus_dolby
+
+====================
+     02-26-2026
+====================
+
+   * lineage/hudson
+dc7e476 the TIME was ticking too fast
+
+   * lineage/wiki
+f64a0da6 devices: Promote timelm to 23.2
+
+   * packages/apps/crDroidSettings
+a8883bb6 crdroid: Remove deprecated PagerSlidingTabStrip impl
+1cc5f28e crdroid: Disable adaptive playback
+
+====================
+     02-25-2026
+====================
+
+   * lineage/hudson
+68bd8d0 hudson: rosemary goes 23.2!
+
+   * lineage/wiki
+3ae43c10 wiki: Add Web Flash Tools instructions
+22b7fb19 wiki: Promote rosemary to 23.2
+
+====================
+     02-24-2026
+====================
+
+   * frameworks/base
+c97174dbf169 SystemUI: Hide mobile data tile when unsupported
+8534e65b7d87 New Crowdin updates (#1295)
+
+   * lineage/hudson
+92a8961 Better late than never
+d60dd76 fly before may
+
+   * lineage/wiki
+1449c96d wiki: Add docker compose file
+80725b1c wiki: Promote apollon, lmi, munch and thyme to 23.2
+02ba5b54 wiki: Cleanup Xiaomi SM8250 maintainers
+222eb880 wiki: Promote mayfly to lineage-23.2
+
+   * packages/apps/Glimpse
+4263e73 Glimpse: Reformat code
+3435a3c Glimpse: Add support for motion photos
+
+   * packages/apps/Launcher3
+7326e0c394 New Crowdin updates (#521)
+75d7fde3b0 Launcher3: Remove quick actions category on tablet
+
+   * packages/apps/crDroidSettings
+4bbce282 New Crowdin updates (#1294)
+
+====================
+     02-23-2026
+====================
+
+   * lineage/hudson
+da91b76 Regenerate device dependency mappings
+
+   * packages/apps/crDroidSettings
+520fb794 crdroid: Fix statusbar clock am/pm reset default
+3d3f3841 crdroid: Fix statusbar clock reset default
+
+   * vendor/apn
+1ba16ff apn: CN: Kill `3gwap` APN for China Unicom
+
+====================
+     02-22-2026
+====================
+
+   * external/chromium-webview/prebuilt/arm
+f547731 Update Chromium Webview arm to 145.0.7632.109
+
+   * external/chromium-webview/prebuilt/arm64
+8ea09e0 Update Chromium Webview arm64 to 145.0.7632.109
+
+   * external/chromium-webview/prebuilt/x86
+2005a53 Update Chromium Webview x86 to 145.0.7632.109
+
+   * external/chromium-webview/prebuilt/x86_64
+0baf207 Update Chromium Webview x86_64 to 145.0.7632.109
+
+   * frameworks/base
+3c1912472995 base: Fix crash caused by back gesture on popup view
+
+   * lineage/hudson
+2e0103a hudson: Add Galaxy Tab S6 Lite 2024 Wi-Fi (gta4xlswifi)
+
+   * lineage/wiki
+2d73bceb wiki: devices: Add Galaxy Tab S6 Lite 2024 Wi-Fi (gta4xlswifi)
+
+   * packages/apps/Launcher3
+e10a9773fb Launcher3: Fix overview-to-home animation hanging issues
+9b680648f2 New Crowdin updates (#520)
+
+   * packages/apps/Settings
+2d902ea3563 Revert "Settings: Add Glide library"
+
+   * packages/apps/crDroidSettings
+e73df58e crdroid: Rewrite UDFPS icon picker and animations
+d481cb1e New Crowdin updates (#1292)

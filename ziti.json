@@ -1,28 +1,28 @@
 {
-  "response": [
-    {
-        "maintainer": "Loid",
-        "oem": "OnePlus",
-        "device": "Nord CE3 5G",
-        "filename": "crDroidAndroid-15.0-20250422-ziti-v11.4.zip",
-        "download": "https://sourceforge.net/projects/crdroid-unofficial-ziti/files/Release/crDroidAndroid-15.0-20250422-ziti-v11.4.zip/download",
-        "timestamp": 1745337028,
-        "md5": "f8b9715f2abe84134da269239e29bdaa",
-        "sha256": "0f8125df7d432a4c07b31027be014b782950041b32b9c72370042d1813242c13",
-        "size": 2372572649,
-        "version": "11.4",
-        "buildtype": "Monthly",
-        "forum": "",
-        "gapps": "https://nikgapps.com/crdroid-official",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "",
-        "paypal": "",
-        "telegram": "https://t.me/OnePlusNordCE35G",
-        "dt": "https://github.com/anchalsehrawat/android_device_oneplus_ziti",
-        "common-dt": "https://github.com/anchalsehrawat/android_device_oneplus_sm8350-common",
-        "kernel": "https://github.com/anchalsehrawat/android_kernel_oneplus_sm8350"
-    }
-  ]
+    "response": [
+        {
+            "maintainer": "Loid",
+            "oem": "OnePlus",
+            "device": "Nord CE3 5G",
+            "filename": "crDroidAndroid-16.0-20260303-ziti-v12.7.zip",
+            "download": "https://sourceforge.net/projects/crdroid-unofficial-ziti/files/Release/crDroidAndroid-16.0-20260303-ziti-v12.7.zip/download",
+            "timestamp": 1772520678,
+            "md5": "8ebb406cf9b2448a40c89ac57a1e80a5",
+            "sha256": "e592c62329de28a8cc0dd99e8fe704e642cca35eafa55e8703d67aece2ad531a",
+            "size": 2345027475,
+            "version": "12.7",
+            "buildtype": "Monthly",
+            "forum": "",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "https://t.me/OnePlusNordCE35G",
+            "dt": "https://github.com/anchalsehrawat/android_device_oneplus_ziti",
+            "common-dt": "https://github.com/anchalsehrawat/android_device_oneplus_sm8350-common",
+            "kernel": "https://github.com/anchalsehrawat/android_kernel_oneplus_sm8350"
+        }
+    ]
 }
