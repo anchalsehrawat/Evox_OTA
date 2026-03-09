@@ -11,11 +11,22 @@ Notes:
 
 Devices side changes:
 ==============================
+- Added DexOpt Optimisation for overall UI and OTA.
+- Enable PowerOff Alarm
+- Disable High Performance Transitions
+- Played around with CPUfreq but no good so disable window level blur till futher improvements
+- Add Vibration Levels
+- Add SePolicy for USB-OTG 
+- Improve Deep Sleep Thanks to git@mvimal2607
+- Allow camera to skip high frame rate checks for snapchat as well 
+- Includes OplusIR Remote
 - Do not dirty flash over build lower than 11.6.1, Must format 
 - Shipped without firmaware.
 
 Notable ROM changes:
 ==============================
+- Source Side fixes
+---
 Avoid NPE in CriticalEventLog.saveLogToFileNow()
 Evolver: Add gradients customization
 Evolver: Add ongoing action chip implementation
