@@ -18,8 +18,14 @@ Device:
 
 ROM:
 • March SP
-• source side fixes... 
-Previous changes
+• SystemUI: Add wifi/cell tiles
+• Correctly theming AlertDialog with M3 colors
+• Introduce new YAAP bootlogo (again) (2) by SaintJimmy
+• Fix default font feature on lockscreen
+• Use font configs instead hardcoded fonts
+• Use user fonts for Material UI themes [PART 2]
+• source side fixes... etc
+Previous Feb Month changes: 
 • Fix blue color wrongly used in some places
 • Fix printing service invisible UI when manually adding a printer
 • Launcher: Fix a permanent crash on boot
