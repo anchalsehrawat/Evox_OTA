@@ -12,13 +12,19 @@ Notes:
 Devices side changes:
 ==============================
 - Changes similar to Lunaris Thanks to amit-0i for his work & efforts
-    * OPcam zoom crash, brightness related fixes, AOD transition etc...
-
+    * OPcam zoom crash & patch GPhotos, brightness related fixes, AOD transition etc...
 - "CLEAN FLASH" ALERT|Dirty flash only possible over builds 22/03/2026 or later.
 - Shipped without firmaware.
 
 Notable ROM changes:
 ==============================
+Evolver: Add Settings icon background customization
+Evolver: Bring back status bar brightness control
+config: gate display engine category on persist prop
+feat: sleep mode deep sleep toggle
+Settings: Add Settings icon background customization
+Settings: display: gate display engine category on persist prop
+------------------------------
 AppLocker: fixing applocker activity lifecycle issues
 Fix hidden AP remove WifiEntry during connection
 Evolver: Add 2 colon clocks
