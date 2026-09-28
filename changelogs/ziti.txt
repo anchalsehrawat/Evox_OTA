@@ -1,0 +1,52 @@
+## 
+==You are responsible for your actions.==
+##
+
+Notes:
+==============================
+- This is Android 17 QPR0 with September 2026 security patches
+- LineageOS-based source. Signed build.
+- GMS Build Supports OTA Update. 
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Credits to EvoX team, PJGowtham, Amit-0i(t.me/@okkotsu66), Arka(t.me/@Desplicableguy)
+
+Devices side changes:
+==============================
+- Flash Ampere kernel for KSUN and susfs support. (check telegram group)
+- Dolby included
+- OPcam with 2x zoom fixes
+- Gcam fix for A17, Powerhint optimised by okkotsu
+
+Notable ROM changes:
+==============================
+Evolver: Update Monet Engine
+overlay: Add OmniJaws to location extra packages
+overlay: Offload WM shell to another thread
+common: Allow OTA downgrade regardless build type
+soong: Conditionally spoof ro.product.first_api_level to 32 [1/2]
+evolution: Switch to AOSPA's face unlock implementation
+overlay: Update device configs global overrides
+overlay: Allow new SystemUI clocks
+overlay: Settings: Show memory usage in app info
+evolution: Enable Cloned App
+kernel: Add option to avoid rebuilding kernel everytimes
+evolution: Configure support for Evolution X Vanilla
+evolution: Inherit Pixel additions via `WITH_GMS`
+lineage: Initial Evolution X rebrand
+Revert "config: Use add_soong_config_namespace/add_soong_config_var macros"
+Revert "Revert "Add product_launched_with_j{,_mr1,mr2}.mk""
+Revert "bootanimation: Convert to Android.bp"
+Revert "charger: Convert to Android.bp"
+vars: September 2026 Pixel Update
+Settings: Answer search index queries as Settings
+exposing pffft to axion fx and steam audio
+util: ControllerUtils: Add support for passing custom fragmentTitle
+util: Introduce ControllerUtils class
+libdmabufinfo: Avoid error spam when the optional BPF iterator is absent
+stagefright: Use the stock index for opted-in AC-4 tables
+stagefright: Match the opted-in AC-4 table request ABI
+stagefright: Allow products to select 21-entry Dolby AC-4 tables
+
+===============================
+To check all the changes visit: https://github.com/Evolution-X/changelog/tree/cnb/changelogs
+.
