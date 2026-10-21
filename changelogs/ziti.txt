@@ -4,7 +4,7 @@
 
 Notes:
 ==============================
-- This is Android 17 QPR0 with September 2026 security patches
+- This is Android 17 QPR0 with October 2026 security patches
 - LineageOS-based source. Signed build.
 - GMS Build Supports OTA Update. 
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
@@ -13,39 +13,29 @@ Notes:
 Devices side changes:
 ==============================
 - Flash Ampere kernel for KSUN and susfs support. (check telegram group)
-- Dolby included
-- OPcam with 2x zoom fixes
-- Gcam fix for A17, Powerhint optimised by okkotsu
+- Sony Dolby included by okkotsu
 
 Notable ROM changes:
 ==============================
-Evolver: Update Monet Engine
-overlay: Add OmniJaws to location extra packages
-overlay: Offload WM shell to another thread
-common: Allow OTA downgrade regardless build type
-soong: Conditionally spoof ro.product.first_api_level to 32 [1/2]
-evolution: Switch to AOSPA's face unlock implementation
-overlay: Update device configs global overrides
-overlay: Allow new SystemUI clocks
-overlay: Settings: Show memory usage in app info
-evolution: Enable Cloned App
-kernel: Add option to avoid rebuilding kernel everytimes
-evolution: Configure support for Evolution X Vanilla
-evolution: Inherit Pixel additions via `WITH_GMS`
-lineage: Initial Evolution X rebrand
-Revert "config: Use add_soong_config_namespace/add_soong_config_var macros"
-Revert "Revert "Add product_launched_with_j{,_mr1,mr2}.mk""
-Revert "bootanimation: Convert to Android.bp"
-Revert "charger: Convert to Android.bp"
-vars: September 2026 Pixel Update
-Settings: Answer search index queries as Settings
-exposing pffft to axion fx and steam audio
-util: ControllerUtils: Add support for passing custom fragmentTitle
-util: Introduce ControllerUtils class
-libdmabufinfo: Avoid error spam when the optional BPF iterator is absent
-stagefright: Use the stock index for opted-in AC-4 tables
-stagefright: Match the opted-in AC-4 table request ABI
-stagefright: Allow products to select 21-entry Dolby AC-4 tables
+Evolver: Rework spoofing UI with Material 3 Expressive
+Evolver: lockscreen: Replace custom Now Playing with system switches
+overlay: dps: update device config overrides
+common: move the Now Playing on-demand flags out of the device tree
+release: Enable android.os flags
+Settings: firmwareversion: convert Evolution X entries to Catalyst
+Settings: hardwareinfo: build Model page as hero card with segmented specs
+Settings: firmwareversion: give the About phone logo a holographic look
+Settings: gestures: raise IME nav bar space overlay priority
+Settings: Phone ringtone setting for Multi SIM device [2/3]
+SystemUIGoogle: ambientmusic: Add lyrics mode
+SystemUIGoogle: Let dagger construct AmbientIndicationInteractor
+SystemUIGoogle: Port non-Pixel Now Playing and ambient music recognition
+Revert "SystemUIGoogle: Guard Now Playing quick affordance"
+fs_mgr: Don't spam F2FS linear_lookup logs.
+Settings: hardwareinfo: redesign model page with Material 3 Expressive
+custom_rom_hide: Do not spoof /data/local/tmp
+custom_rom_hide: Only hide ROM-named overlays from listings
+LineageParts: Keep Trust onboarding content clear of actions
 
 ===============================
 To check all the changes visit: https://github.com/Evolution-X/changelog/tree/cnb/changelogs
