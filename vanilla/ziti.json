@@ -1,1 +1,12 @@
-{}
+{
+        "response": [
+                {
+                        "filename": "Project_Infinity-X-4.2-ziti-07.11.2026-VANILLA-UNOFFICIAL.zip",
+                        "download": "https://sourceforge.net/projects/infinityx-unofficial-ziti/files/Release/vanilla/Project_Infinity-X-4.2-ziti-07.11.2026-VANILLA-UNOFFICIAL.zip",
+                        "timestamp": 1794050870,
+                        "md5": "d1574e9404d246107ccad9fcc5c4743b",
+                        "size": 2547015630,
+                        "version": "4.2"
+                }
+        ]
+}
